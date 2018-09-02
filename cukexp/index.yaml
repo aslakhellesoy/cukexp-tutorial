@@ -1,0 +1,30 @@
+resourceDir: resources
+size: 720p
+# background:
+#   audio: background-music.mp3
+#   volume: 0.3
+scenes:
+  - image: kim-naughtycucumber.jpg
+    duration: 2
+  - image: kim-meat.jpg
+    narration: >
+      I'm looking forward to eating bibimbap.
+      It's soo good hihihi.
+  - video: cukexp.mov
+    # SSML - check it out
+    narration: >
+      First, lets see the ingredients:
+        - Meat
+        - More Meat
+        - Eggs
+  - slide: |
+      # OSX / Unix - AWS Credentials
+      ## How should the expression look
+      ```javascript
+      Given("I have {int} kim jong uns", kims => {
+        
+      })
+      ```
+    narration: >
+      INSANE!
+
